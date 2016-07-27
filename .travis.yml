@@ -13,5 +13,5 @@ install:
 script:
   - npm run codecov
 
-after_script: 
+after_script:
   - npm i codecov && codecov
