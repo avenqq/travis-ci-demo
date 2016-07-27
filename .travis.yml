@@ -9,6 +9,8 @@ node_js:
 
 install:
   - npm install
+  
+script:
+  - npm run codecov
 
-after_script:
-  - npm install codecov && codecov
+after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
