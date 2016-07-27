@@ -12,9 +12,4 @@ install:
 script:
   - npm run codecov
 
-env:  
-  global:
-    - CODECOV_TOKEN: 9ac43f95-d818-4e39-b43b-9f26a5d90e2f
-script:  
-  - istanbul cover node_modules/mocha/bin/_mocha
-  - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
+after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
