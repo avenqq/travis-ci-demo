@@ -1,6 +1,9 @@
 'use strict';
 
-function hello(){
+function hello(flag){
+ if (flag) {
+	 return 'No';
+ }
   return 'Hello World';
 }
 
