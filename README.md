@@ -3,7 +3,7 @@
 
 [travis-image]: https://img.shields.io/travis/avenqq/travis-ci-demo.svg?style=flat
 [travis-url]: https://travis-ci.org/avenqq/travis-ci-demo?branch=demo04
-[codecov-image]: https://codecov.io/gh/avenqq/travis-ci-demo/branch/master/graph/badge.svg
+[codecov-image]: https://codecov.io/gh/avenqq/travis-ci-demo/branch/demo04/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/avenqq/travis-ci-demo
 
 
