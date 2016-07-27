@@ -1,5 +1,4 @@
 [![build status][travis-image]][travis-url]
-[![Appveyor status][appveyor-image]][appveyor-url]
 [![Test coverage][codecov-image]][codecov-url]
 
 [travis-image]: https://img.shields.io/travis/avenqq/travis-ci-demo.svg?style=flat
